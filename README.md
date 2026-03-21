@@ -31,39 +31,30 @@ The goal of this project is to create a realistic pet adoption experience with a
 ### Data
 - Large mock pet dataset
 
-## Project Structure
+## Pages
 
-Pages
-
-Home Page:
+### Home Page:
 The landing page introduces the app with a hero section, pet imagery, and quick access to pet categories.
 
-Pets Page
-
+### Pets Page:
 Displays the pet listing grid and supports browsing by category.
 
-Pet Details Page
-
+### Pet Details Page:
 Shows detailed information for a selected pet, including breed, age, size, personality, and adoption-related details.
 
-Favorites Page
-
+### Favorites Page:
 Lets users save pets they are interested in and view them in one place.
 
-About Page
-
+### About Page:
 Provides a short description of the project and its purpose.
 
-Not Found Page
-
+### Not Found Page:
 Handles invalid routes with a custom 404 experience.
 
-Favorites Feature
-
+### Favorites Feature:
 The favorites feature is built with Redux Toolkit and persists data using local storage. This allows users to save pets and still see them after refreshing the page.
 
-Mock Data
-
+## Mock Data:
 The app uses a large mock dataset that includes:
 
 Dogs and cats
@@ -75,41 +66,42 @@ Location
 Featured pets
 Personality and compatibility details
 
-This helps simulate a realistic browsing experience without depending on an external API.
 
-
-Installation
+## Installation
 
 Clone the repository:
-
+```bash
 git clone https://github.com/Ruwaidah/boo-fe
+```
 
 Go into the project folder:
-
+```bash
 cd boo-fe
-
+```
 
 Install dependencies:
-
+```bash
 npm install
+```
 
 Run the development server:
-
+```bash
 npm run dev
+```
 
-Screenshots
+## Screenshots
 
+### Home Page
 ![Home Page](./src/assets/images/boo.png)
+
+### Pets Page
 ![Pets Page](./src/assets/images/boo-1.png)
 
 
-Live Demo
-
+## Live Demo
 [Live Demo](https://boo-fe.onrender.com/)
 
-Author
+## Author
 
 Ruwaidah Alfakhri
-
-Frontend Developer passionate about building modern, responsive, and user-friendly web applications.
 
