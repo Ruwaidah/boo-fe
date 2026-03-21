@@ -57,34 +57,34 @@ The favorites feature is built with Redux Toolkit and persists data using local 
 ## Mock Data:
 The app uses a large mock dataset that includes:
 
-Dogs and cats
-Different breeds
-Age groups
-Gender
-Size
-Location
-Featured pets
-Personality and compatibility details
+- Dogs and cats
+- Different breeds
+- Age groups
+- Gender
+- Size
+- Location
+- Featured pets
+- Personality and compatibility details
 
 
 ## Installation
 
-Clone the repository:
+#### Clone the repository:
 ```bash
 git clone https://github.com/Ruwaidah/boo-fe
 ```
 
-Go into the project folder:
+#### Go into the project folder:
 ```bash
 cd boo-fe
 ```
 
-Install dependencies:
+#### Install dependencies:
 ```bash
 npm install
 ```
 
-Run the development server:
+#### Run the development server:
 ```bash
 npm run dev
 ```
@@ -102,6 +102,5 @@ npm run dev
 [Live Demo](https://boo-fe.onrender.com/)
 
 ## Author
-
 Ruwaidah Alfakhri
 
