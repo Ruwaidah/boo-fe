@@ -33,11 +33,9 @@ The goal of this project is to create a realistic pet adoption experience with a
 
 ## Project Structure
 
-```bash
-
 Pages
-Home Page
 
+Home Page:
 The landing page introduces the app with a hero section, pet imagery, and quick access to pet categories.
 
 Pets Page
@@ -102,7 +100,7 @@ npm run dev
 Screenshots
 
 ![Home Page](./src/assets/images/boo.png)
-![Pets Page](./src/assets/images/b00-1.png)
+![Pets Page](./src/assets/images/boo-1.png)
 
 
 Live Demo
