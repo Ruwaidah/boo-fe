@@ -79,10 +79,6 @@ Personality and compatibility details
 
 This helps simulate a realistic browsing experience without depending on an external API.
 
-Why I Built This
-
-I created BOO as a portfolio project to demonstrate my frontend development skills through a real-world style app. The project focuses on clean UI design, reusable React components, state management with Redux Toolkit, routing, and responsive layouts.
-
 
 Installation
 
