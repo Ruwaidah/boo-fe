@@ -1,16 +1,121 @@
-# React + Vite
+# BOO Pet Adoption App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BOO is a modern pet adoption web app built as a portfolio project. It helps users browse adoptable pets, explore detailed pet profiles, and save favorites through a clean, responsive, and user-friendly interface.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The goal of this project is to create a realistic pet adoption experience with a polished frontend, strong component structure, and scalable state management. Since public pet adoption APIs are limited, the app currently uses a large mock dataset to simulate real-world browsing and filtering.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern responsive landing page
+- Browse pets in a clean card layout
+- Filter pets by category
+- Dynamic pet details page
+- Save pets to favorites
+- Favorites state managed with Redux Toolkit
+- Persistent favorites using local storage
+- Custom 404 page for undefined routes
+- Built with reusable components and scalable folder structure
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- Redux Toolkit
+- React Redux
+
+### Data
+- Large mock pet dataset
+
+## Project Structure
+
+```bash
+
+Pages
+Home Page
+
+The landing page introduces the app with a hero section, pet imagery, and quick access to pet categories.
+
+Pets Page
+
+Displays the pet listing grid and supports browsing by category.
+
+Pet Details Page
+
+Shows detailed information for a selected pet, including breed, age, size, personality, and adoption-related details.
+
+Favorites Page
+
+Lets users save pets they are interested in and view them in one place.
+
+About Page
+
+Provides a short description of the project and its purpose.
+
+Not Found Page
+
+Handles invalid routes with a custom 404 experience.
+
+Favorites Feature
+
+The favorites feature is built with Redux Toolkit and persists data using local storage. This allows users to save pets and still see them after refreshing the page.
+
+Mock Data
+
+The app uses a large mock dataset that includes:
+
+Dogs and cats
+Different breeds
+Age groups
+Gender
+Size
+Location
+Featured pets
+Personality and compatibility details
+
+This helps simulate a realistic browsing experience without depending on an external API.
+
+Why I Built This
+
+I created BOO as a portfolio project to demonstrate my frontend development skills through a real-world style app. The project focuses on clean UI design, reusable React components, state management with Redux Toolkit, routing, and responsive layouts.
+
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/Ruwaidah/boo-fe
+
+Go into the project folder:
+
+cd boo-fe
+
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+Screenshots
+
+![Home Page](./src/assets/images/boo.png)
+![Pets Page](./src/assets/images/b00-1.png)
+
+
+Live Demo
+
+[Live Demo](https://boo-fe.onrender.com/)
+
+Author
+
+Ruwaidah Alfakhri
+
+Frontend Developer passionate about building modern, responsive, and user-friendly web applications.
+
